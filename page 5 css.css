@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px 10%;
+  background-color: rgb(243, 242, 242);
+
+  position: relative;
+  top: 0;
+}
+
+header li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.icon {
+  max-width: 50%;
+  padding: 5px;
+}
+.icon img {
+  width: 100%;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 20%;
+}
+
+main ul {
+  list-style: none;
+}
+
+.standard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 350px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.standard ul:hover {
+  border-top: 5px solid #3b5ff3;
+  box-shadow: 0px 4px 5px -3px #888;
+}
+
+.standard ul {
+  align-content: center;
+  padding-bottom: 8%;
+  width: 100%;
+  position: relative;
+  padding-top: 7%;
+
+  background-color: rgb(243, 243, 243);
+  list-style: none;
+  cursor: pointer;
+}
+
+.standard hr {
+  width: 85%;
+  height: 20%;
+  margin-left: 0;
+  margin-right: 0;
+  height: 2px;
+
+  border: solid 1px;
+  color: #ffc356;
+}
+
+.standard ul li {
+  position: relative;
+  left: 7%;
+}
+.standard ul li h1 {
+  display: flex;
+  align-content: center;
+  position: relative;
+  left: 12%;
+  padding: 10px 10%;
+  padding-top: 35 px;
+  font-size: 25px;
+}
+
+.standard ul li p {
+}
+span .last {
+  line-height: 30px;
+}
+
+.inner-text {
+  font-size: 20px;
+}
+.standard ul li p {
+  align-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.inner-text :nth-child(3) {
+  text-align: center;
+  position: relative;
+  left: -20px;
+}
+
+.inner-text :nth-child(3):hover {
+  color: #3b5ff3;
+}
+/* gap */
+
+.gap {
+  display: flex;
+  width: 1.5%;
+}
+.sponsered {
+  display: flex;
+  flex-direction: column;
+
+  width: 350px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+/* .sponsered.heading ul{
+    list-style: none;
+
+} */
+
+.sponsered ul:hover {
+  border-top: 5px solid #3b5ff3;
+  box-shadow: 0px 4px 5px -3px #888;
+}
+.sponsered ul {
+  /* border-top: 5px solid #3b5ff3; */
+  align-content: center;
+  padding-bottom: 8%;
+  width: 100%;
+  position: relative;
+
+  background-color: rgb(243, 243, 243);
+  list-style: none;
+  cursor: pointer;
+}
+
+.sponsered hr {
+  width: 82%;
+  height: 20%;
+  margin-left: 0;
+  margin-right: 0;
+  height: 2px;
+
+  border: solid 1px;
+  color: #ffc356;
+}
+
+.sponsered ul li {
+  position: relative;
+  left: 7%;
+}
+.sponsered ul li h1 {
+  display: flex;
+  align-content: center;
+  position: relative;
+  left: 12%;
+  padding: 10px 10%;
+  padding-top: 30 px;
+  font-size: 25px;
+}
+
+.sponsered ul li p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+span .last {
+  line-height: 20px;
+}
+
+.inner-text2 {
+  line-height: 20px;
+  font-size: 20px;
+}
+.sponsered ul li p {
+  align-content: center;
+}
+
+.inner-text2 :nth-child(3) {
+  text-align: center;
+  position: relative;
+  left: -20px;
+}
+
+.inner-text2 :nth-child(3):hover {
+  color: #3b5ff3;
+}
+
+.billing-info {
+  margin-top: 5%;
+  width: 94%;
+  background: rgb(243, 243, 243);
+}
+
+h1 {
+  padding: 2%;
+  padding-bottom: 0;
+}
+.billing-info form {
+  position: relative;
+  left: 4%;
+}
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  color: grey;
+  padding: 10px 2%;
+  padding-bottom: 0;
+  /* flex-direction: row; */
+}
+
+.name input {
+  position: relative;
+  top: 10px;
+  height: 100%;
+  padding: 5px 0;
+}
+.name p {
+  font-size: 18px;
+  width: 15%;
+  padding: 2%;
+  padding-right: 0%;
+}
+
+.name :nth-child(1) {
+  width: 12%;
+  padding-left: 0;
+}
+
+/* .name #name {
+  padding-left: 0;
+  width: 12%;
+} */
+.address {
+  width: 80%;
+  padding: 5px 2%;
+}
+
+.address p {
+  color: grey;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.address input {
+  width: 90%;
+}
+.country {
+  display: flex;
+  color: grey;
+  padding: 10px 2%;
+}
+
+.country input {
+  position: relative;
+  top: 10px;
+  height: 100%;
+  padding: 5px 0;
+}
+.country p {
+  font-size: 18px;
+  width: 12%;
+  padding: 2%;
+  padding-right: 0%;
+}
+
+.country :nth-child(1) {
+  width: 11%;
+  padding-left: 0;
+}
+
+.city {
+  display: flex;
+  color: grey;
+  padding: 10px 2%;
+}
+
+.city input {
+  position: relative;
+  top: 10px;
+  height: 100%;
+  padding: 5px 0;
+}
+.city p {
+  font-size: 18px;
+  width: 12%;
+  padding: 2%;
+  padding-right: 0%;
+}
+
+.city :nth-child(1) {
+  width: 11%;
+  padding-left: 0;
+}
+
+.credit-info {
+  display: flexbox;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  width: 94%;
+  background: rgb(243, 243, 243);
+}
+.credit-info p {
+  font: 20px;
+}
+.credit-info form {
+  position: relative;
+  left: 4%;
+}
+.cardname {
+  color: grey;
+}
+
+.cardname p {
+  padding: 2% 0;
+  padding-bottom: 1%;
+}
+
+.cardname input {
+  width: 80%;
+  height: 100%;
+  padding: 0.5% 2%;
+}
+
+.card-number {
+  color: grey;
+}
+
+.card-number p {
+  padding: 2% 0;
+  padding-bottom: 1%;
+}
+
+.card-number input {
+  width: 30%;
+}
+
+.date {
+  color: grey;
+}
+
+.date p {
+  padding: 2% 0;
+  padding-bottom: 1%;
+}
+
+.date input {
+  width: 10%;
+}
+
+.cvc {
+  color: grey;
+}
+
+.cvc p {
+  padding: 2% 0;
+  padding-bottom: 1%;
+}
+
+.cvc input {
+  width: 5%;
+  margin-bottom: 3%;
+}
+
+.complete-purchase {
+  align-content: center;
+  display: flex;
+  padding: 5% 35%;
+}
+.btn-primary {
+  align-content: center;
+  font-size: 15px;
+}
+button {
+  background-color: #3b5ff3;
+  border: 3px solid #3b5ff3;
+  border-radius: 24px;
+  width: 100%;
+  color: white;
+
+  padding: 7px;
+  cursor: pointer;
+  outline: none;
+}
+
+.complete-purchase button:hover {
+  background-color: #5670da;
+  border: 3px solid #5670da;
+  box-shadow: 0px 4px 5px -3px #888;
+}
+
+.bgimg {
+  display: flex;
+  width: 100%;
+}
+#bg {
+  position: absolute;
+  top: 700px;
+  left: -150px;
+  width: 30%;
+}
+
+.form-control:hover {
+  border: 1px solid #3b5ff3;
+}
